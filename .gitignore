@@ -1,0 +1,6 @@
+rm -rf .git  # Be cautious; this deletes the .git folder
+git init
+git add .
+git commit -m "first addition"
+git remote add origin https://github.com/dovudbek7/Deno-site.git
+git push -u origin main
